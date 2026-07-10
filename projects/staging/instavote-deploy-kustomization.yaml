@@ -1,0 +1,7 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
+kind: kustomization
+metadata:
+  name: instavote-deploy
+  namespace: instavote
+spec:
+	path: ./flux/staging
